@@ -1,0 +1,136 @@
+body {
+    background-image: linear-gradient(rgba(4,102,200,0), #11698e);
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   overflow-x: hidden;
+}
+
+.aboutUs img {
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+}
+
+
+.container {
+   display: flex;
+   
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+   align-items: center;
+   margin: 0;
+  
+}
+
+.title {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+.howTo {
+   width: 100vw;
+   height: 50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #11698e;
+}
+
+.aboutUs {
+   width: 100vw;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #11698e;
+}
+
+.aboutUsPic {
+   width: 100vw;
+   height: auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.member {
+   width: 20%;
+   height: 70vh;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px;
+   background-color: rgba(255, 255, 255,0.6)
+}
+
+.btn-success{
+   background-color: black;
+   border-color: black;
+}
+
+.btn-success:hover {
+   background-color: skyblue;
+   border-color: skyblue;
+}
+
+.btn-success:visited {
+   color: black;
+   border-color: black;
+}    
+
+
+h1 {
+              font-family: 'Press Start 2P', cursive;
+              font-size: 45px;
+          }
+
+h3 {
+              font-family: 'Press Start 2P', cursive;
+          }
+          
+         
+          
+img {
+              border-radius: 50%;
+          }
+
+footer {
+   align-self: center;
+   display: flex;
+   justify-content: center;
+}
+
+.custom-shape-divider-bottom-1616318614 {
+   position: absolute;
+   bottom: -10px;
+   left: 0;
+   width: 100vw;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1616318614 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 6.6px);
+   height: 250px;
+   transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1616318614 .shape-fill {
+   fill: #11698e;
+}

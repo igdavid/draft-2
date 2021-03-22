@@ -1,0 +1,97 @@
+
+.banner {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.container {
+	position: relative;
+}
+
+#btnBack{
+    position: absolute; 
+    left: 10%; 
+    top: 2%;
+}
+
+.score {
+	font-weight: bold;
+}
+
+#counter {
+	font-weight: bold;
+}
+
+div {
+	align-content: center;
+}
+
+#blanks {
+    width: 90%;
+	height: 40%;
+}
+
+#letters {
+    width: 90%;
+}
+
+.imagehint {
+	height: 40%; 
+	width: 40%;
+	float: right;
+	margin: 0.4em;
+	cursor: pointer;
+}
+
+.imagehint:hover {
+	box-shadow: 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 12px #FFDD1B, 0 0 15px #FFDD1B, 0 0 20px #FFDD1B, 0 0 30px #FFDD1B, 0 0 50px #FFDD1B;
+}
+
+#imageFull {
+	height: 81.7%;
+	width: 81.7%;
+	margin: 0.4em;
+}
+
+#container {
+	display: none;
+}
+
+.blank {
+	font-weight: bold;
+	font-size: 50px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+}
+
+#hintbutton {
+	 float: right;
+	 cursor: pointer;
+}
+
+#hintbutton:hover {
+	color: #FFDD1B;
+}
+
+
+.letter {
+	font-weight: bold;
+	font-size: 40px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 10%;
+	cursor: pointer;
+	background: #222;
+	color: white;
+}
+
+.letter:hover {
+	color: yellow;
+	background: #333300;
+}
